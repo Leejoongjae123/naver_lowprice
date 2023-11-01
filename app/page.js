@@ -33,7 +33,7 @@ export default function Home() {
       <h1 className="font-bold text-4xl text-center py-10">급매물 검색</h1>
       <div className="flex py-10 justify-center gap-x-3">
         
-        <div>
+        <div className="w-full">
           <Searchbar></Searchbar>
         </div>
       </div>

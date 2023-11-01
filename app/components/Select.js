@@ -37,7 +37,7 @@ export default function BasicSelect() {
           </Select>
         </FormControl>
       </Box>
-      <Box className="bg-white w-20">
+      <Box className="bg-white w-30">
         <FormControl fullWidth>
           <InputLabel id="demo-simple-select-label">정렬</InputLabel>
           <Select
