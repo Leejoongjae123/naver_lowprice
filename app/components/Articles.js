@@ -18,7 +18,7 @@ export default function Articles() {
       </div>
       
       
-      <CardMedia
+      <CardMedia className='relative'
         sx={{ height: 140 }}
         image="https://landthumb-phinf.pstatic.net/20170330_291/apt_realimage_1490853393012dKl3g_JPEG/315c3cb7e9417fdeccf9bfe94a204510.jpg?type=m1024"
         title="green iguana"
