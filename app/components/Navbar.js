@@ -16,7 +16,7 @@ export default function ButtonAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             네이버 부동산 급매물 정보
           </Typography>
-          <Button color="inherit">로그인</Button>
+          {/* <Button color="inherit">로그인</Button> */}
         </Toolbar>
       </AppBar>
     </Box>
