@@ -9,6 +9,9 @@ import WorkIcon from '@mui/icons-material/Work';
 import BeachAccessIcon from '@mui/icons-material/BeachAccess';
 import Divider from '@mui/material/Divider';
 import {Button} from '@nextui-org/button';
+import SellIcon from '@mui/icons-material/Sell';
+import TimelineIcon from '@mui/icons-material/Timeline';
+import Crop75Icon from '@mui/icons-material/Crop75';
 
 export default function InsetDividers() {
   return (
@@ -22,7 +25,7 @@ export default function InsetDividers() {
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <ImageIcon />
+            <SellIcon />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary="가격" secondary="18억" />
@@ -31,7 +34,7 @@ export default function InsetDividers() {
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <WorkIcon />
+            <Crop75Icon />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary="평형" secondary="38평형" />
@@ -40,7 +43,7 @@ export default function InsetDividers() {
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <BeachAccessIcon />
+            <TimelineIcon />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary="실거래" secondary="22억" />

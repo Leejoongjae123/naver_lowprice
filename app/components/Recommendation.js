@@ -10,11 +10,11 @@ import Paper from "@mui/material/Paper";
 export default function AccessibleTable() {
   return (
     <div className="px-10">
-      <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
-        <table className="table-fixed w-full text-sm text-left text-gray-500 dark:text-gray-400">
-          <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+      <div className="relative overflow-x-auto shadow-md rounded-2xl">
+        <table className="table-fixed w-full text-sm text-left text-gray-500 shadow-xl">
+          <thead className="text-base text-gray-700 uppercase bg-gray-50 font-bold">
             <tr>
-              <th scope="col" className="px-6 py-3">
+              <th scope="col" className="px-6 py-3 ">
                 아파트명
               </th>
               <th scope="col" className="px-6 py-3">
