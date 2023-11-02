@@ -42,7 +42,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col p-10">
-        <div className="flex py-5 justify-end px-10">
+        <div className="flex py-5 justify-center md:justify-end px-10">
           <Select></Select>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 justify-center gap-x-5 gap-y-5">
