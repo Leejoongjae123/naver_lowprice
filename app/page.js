@@ -37,13 +37,14 @@ export default function Home() {
       <h1 className="font-bold text-4xl text-center pt-10">급매 검색</h1>
       <div className="flex py-5 justify-center gap-x-3">
         
-        <div className="w-full">
+        <div className="flex flex-row w-full">
           <Searchbar></Searchbar>
+          {/* <Select></Select> */}
         </div>
       </div>
-      <div className="flex flex-col p-10">
+      <div className="flex flex-col px-10">
         <div className="flex py-5 justify-center md:justify-end px-10">
-          <Select></Select>
+
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 justify-center gap-x-5 gap-y-5">
           
@@ -57,7 +58,7 @@ export default function Home() {
           
         </div>
       </div>
-      <div className="pb-10 flex justify-center">
+      <div className="py-10 flex justify-center">
         <Stack className="" spacing={2}>
           <Pagination count={10} color="primary" />
         </Stack>

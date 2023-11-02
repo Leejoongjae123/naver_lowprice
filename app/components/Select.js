@@ -18,7 +18,8 @@ export default function BasicSelect() {
   };
 
   return (
-    <div className="flex gap-x-2">
+    <>
+      
       <Box className="bg-white w-20">
         <FormControl fullWidth>
           <InputLabel id="demo-simple-select-label">지역</InputLabel>
@@ -53,6 +54,6 @@ export default function BasicSelect() {
           </Select>
         </FormControl>
       </Box>
-    </div>
+    </>
   );
 }

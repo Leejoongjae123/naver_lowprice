@@ -11,7 +11,7 @@ export default function AccessibleTable() {
   return (
     <div className="px-10">
       <div className="relative overflow-x-auto shadow-md rounded-2xl">
-        <table className="truncate text-sm table-fixed w-full text-gray-500 shadow-xl">
+        <table className="truncate text-xs md:text-base table-fixed w-full text-gray-500 shadow-xl">
           <thead className="text-center text-xs md:text-base text-gray-700 uppercase bg-gray-50 font-bold">
             <tr>
               <th scope="col" className="px-6 py-3">
@@ -35,7 +35,7 @@ export default function AccessibleTable() {
               </th>
             </tr>
           </thead>
-          <tbody className="text-xs text-center">
+          <tbody className="text-xs md:text-base text-center">
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
               <th
                 scope="row"
