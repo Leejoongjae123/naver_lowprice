@@ -49,7 +49,7 @@ export default function Home() {
           
             {articleList.map((elem, index) => {
               return (
-                <div className="cols-span-1">
+                <div className="cols-span-1 transform hover:scale-105 transition-transform duration-100">
                   <Articles></Articles>
                 </div>
               );
