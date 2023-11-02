@@ -45,11 +45,11 @@ export default function Home() {
         <div className="flex py-5 justify-end px-10">
           <Select></Select>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-4 justify-center gap-y-5">
+        <div className="grid grid-cols-1 md:grid-cols-4 justify-center gap-x-5 gap-y-5">
           
             {articleList.map((elem, index) => {
               return (
-                <div className="cols-span-1 mx-auto">
+                <div className="cols-span-1">
                   <Articles></Articles>
                 </div>
               );

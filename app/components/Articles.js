@@ -11,7 +11,7 @@ import Description from './Description'
 export default function Articles() {
   return (
     <Card className='h-100 rounded-3xl shadow-xl'>
-      <div className='p-5 flex flex-col'>
+      <div className='w-full p-5 flex flex-col'>
         <div className='relative h-32'>
         <Badge className='w-full absolute right-7 top-5' badgeContent={"판교"} color="secondary"></Badge>
           <Image className='rounded-2xl' fill src="https://landthumb-phinf.pstatic.net/20170330_291/apt_realimage_1490853393012dKl3g_JPEG/315c3cb7e9417fdeccf9bfe94a204510.jpg?type=m1024"></Image>
