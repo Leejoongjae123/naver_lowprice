@@ -10,7 +10,7 @@ import Image from 'next/image';
 import Description from './Description'
 export default function Articles() {
   return (
-    <Card className='h-100 rounded-3xl shadow-xl'>
+    <Card className='h-100 rounded-lg shadow-xl'>
       <div className='w-full p-5 flex flex-col'>
         <div className='relative h-32'>
         <Badge className='w-full absolute right-7 top-5' badgeContent={"판교"} color="secondary"></Badge>

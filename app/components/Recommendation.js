@@ -10,7 +10,7 @@ import Paper from "@mui/material/Paper";
 export default function AccessibleTable() {
   return (
     <div className="px-10">
-      <div className="relative overflow-x-auto shadow-md rounded-2xl">
+      <div className="relative overflow-x-auto shadow-md rounded-lg">
         <table className="truncate text-xs md:text-base table-fixed w-full text-gray-500 shadow-xl">
           <thead className="text-center text-xs md:text-base text-gray-700 uppercase bg-gray-50 font-bold">
             <tr>
