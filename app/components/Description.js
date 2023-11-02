@@ -8,6 +8,7 @@ import ImageIcon from '@mui/icons-material/Image';
 import WorkIcon from '@mui/icons-material/Work';
 import BeachAccessIcon from '@mui/icons-material/BeachAccess';
 import Divider from '@mui/material/Divider';
+import {Button} from '@nextui-org/button';
 
 export default function InsetDividers() {
   return (
@@ -44,6 +45,7 @@ export default function InsetDividers() {
         </ListItemAvatar>
         <ListItemText primary="실거래" secondary="22억" />
       </ListItem>
+      
     </List>
   );
 }

@@ -12,6 +12,9 @@ import { useState, useEffect } from "react";
 import Select from "./components/Select";
 import Searchbar from "./components/Searchbar";
 import Recommendation from './components/Recommendation'
+
+
+
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
   ...theme.typography.body2,
@@ -27,11 +30,12 @@ export default function Home() {
   return (
     <div>
       <div>
-        <h1 className="font-bold text-4xl text-center py-10">추천 급매물 리스트</h1>
+        <h1 className="font-bold text-4xl text-center py-10">추천 급매</h1>
         <Recommendation></Recommendation>
       </div>
-      <h1 className="font-bold text-4xl text-center py-10">급매물 검색</h1>
-      <div className="flex py-10 justify-center gap-x-3">
+
+      <h1 className="font-bold text-4xl text-center pt-10">급매 검색</h1>
+      <div className="flex py-5 justify-center gap-x-3">
         
         <div className="w-full">
           <Searchbar></Searchbar>
