@@ -11,11 +11,12 @@ export default function AccessibleTable() {
   return (
     <div className="px-10">
       <div className="relative overflow-x-auto shadow-md rounded-2xl">
-        <table className="table-fixed w-full text-sm text-left text-gray-500 shadow-xl">
-          <thead className="text-base text-gray-700 uppercase bg-gray-50 font-bold">
+        <table className=" truncate text-sm table-fixed w-full text-left text-gray-500 shadow-xl">
+          <thead className="text-xs md:text-base text-gray-700 uppercase bg-gray-50 font-bold">
             <tr>
-              <th scope="col" className="px-6 py-3 ">
+              <th scope="col" className="px-6 py-3">
                 아파트명
+                
               </th>
               <th scope="col" className="px-6 py-3">
                 <div className="flex items-center">
@@ -34,11 +35,11 @@ export default function AccessibleTable() {
               </th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="text-xs">
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
               <th
                 scope="row"
-                className="px-6 py-4 font-medium text-gray-900  dark:text-white"
+                className="px-6 py-4 font-medium text-gray-900  whitespace-normal"
               >
                 판교 푸르지오그랑블
               </th>
@@ -49,7 +50,7 @@ export default function AccessibleTable() {
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
               <th
                 scope="row"
-                className="px-6 py-4 font-medium text-gray-900 "
+                className="px-6 py-4 font-medium text-gray-900  whitespace-normal"
               >
                 판교 푸르지오그랑블
               </th>
@@ -60,7 +61,7 @@ export default function AccessibleTable() {
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
               <th
                 scope="row"
-                className="px-6 py-4 font-medium text-gray-900 dark:text-white"
+                className="px-6 py-4 font-medium text-gray-900  whitespace-normal"
               >
                 판교 푸르지오그랑블
               </th>
