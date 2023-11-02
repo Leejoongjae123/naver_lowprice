@@ -11,7 +11,6 @@ export default function ComboBox() {
         id="combo-box-demo"
         options={top100Films}
         defaultValue={"전체"}
-        sx={{ width: 300 }}
         renderInput={(params) => <TextField {...params} label="아파트명" />}
       />
     </div>

@@ -41,16 +41,16 @@ export default function Home() {
         <div className="flex py-5 justify-end px-10">
           <Select></Select>
         </div>
-        <div>
-          <Grid container rowSpacing={3} columnSpacing={1}>
+        <div className="grid grid-cols-1 md:grid-cols-4 justify-center gap-y-5">
+          
             {articleList.map((elem, index) => {
               return (
-                <Grid item xs={6} md={3}>
+                <div className="cols-span-1 mx-auto">
                   <Articles></Articles>
-                </Grid>
+                </div>
               );
             })}
-          </Grid>
+          
         </div>
       </div>
       <div className="pb-10 flex justify-center">
